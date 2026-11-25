@@ -12,7 +12,7 @@ KNOWLEDGE = [
  {"topico":"rag","titulo":"RAG (Recuperação Aumentada por Geração)","conteudo":"RAG é a técnica em que o sistema busca trechos confiáveis em uma base de documentos oficial antes de responder. Esses trechos são injetados no prompt da IA, garantindo que ela responda com base em fatos reais e eliminando alucinações.","palavras_chave":["rag","recuperacao","documento","alucinacao","base","contexto"]},
  {"topico":"git","titulo":"Versionamento Colaborativo com Git","conteudo":"O Git gerencia o histórico de alterações do código. Branches permitem desenvolver melhorias e testar novos agentes em paralelo sem colocar em risco a versão principal (main). Commits registram o progresso e Merges integram as soluções validadas.","palavras_chave":["git","branch","commit","merge","versao"]}
 ]
-POLOS={"01001000":{"nome":"Polo Centro - Praça da Sé","logradouro":"Praça da Sé, 100","bairro":"Centro","cidade":"São Paulo/SP"},"04101000":{"nome":"Polo Vila Mariana","logradouro":"Rua Domingos de Morais, 500","bairro":"Vila Mariana","cidade":"São Paulo/SP"},"13010000":{"nome":"Polo Interior - Campinas","logradouro":"Av. Francisco Glicério, 800","bairro":"Centro","cidade":"Campinas/SP"}}
+POLOS={"01001000":{"nome":"Polo Centro - Praça da Sé","logradouro":"Praça da Sé, 100","bairro":"Centro","cidade":"São Paulo/SP"},"04101000":{"nome":"Polo Vila Mariana","logradouro":"Rua Domingos de Morais, 500","bairro":"Vila Mariana","cidade":"São Paulo/SP"},"13010000":{"nome":"Polo Interior - Campinas","logradouro":"Av. Francisco Glicério, 800","bairro":"Centro","cidade":"Campinas/SP"},"00000001":{"nome":"Casa do mais lindo - Simione","logradouro":"Lindeza, nº 05","bairro":"Luz","cidade":"São Paulo/SP"}}
 
 def tutor(question):
     q=question.lower()
